@@ -137,7 +137,7 @@ img{
 @media screen and (max-width: 968px){
   .nav_menu{
     position: fixed;
-    bottom: var(--header-height);
+    bottom: -100%; /*var(--header-height)*/
     left: 0;
     width: 100%;
     padding: 2rem 1.5rem;
@@ -153,6 +153,38 @@ img{
 .nav_toggle{
   color: var(--title-color);
   font-weight: var(--font-medium);
+}
+
+.nav_toggle{
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav_item{
+  text-align: center;
+}
+
+.nav_list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nav_link{
+  display: flex;
+  flex-direction: column;
+  font-size: var(--smaller-font-size);
+  color:var(--text-color-light);
+  font-weight: var(--font-medium);
+}
+
+.nav_link:hover{
+  color: var(--title-color);
+}
+
+.nav_icon{
+  font-size: 1.2rem;
+  margin-bottom: var(--mb-1);
 }
 /* Show menu */
 
