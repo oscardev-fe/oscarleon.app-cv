@@ -197,7 +197,18 @@ img{
 }
 
 /*========== HOME ==========*/
+.home{
+  position: relative;
+}
 
+.home_container{
+  gap: 3rem;
+}
+
+.home_data{
+  gap: .5rem;
+  text-align: center;
+}
 
 /*========== SOCIAL ==========*/
 
