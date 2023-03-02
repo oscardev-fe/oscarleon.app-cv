@@ -311,6 +311,23 @@ img{
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
+
+.education_data{
+  gap: .5rem;
+}
+
+.education_title{
+  font-size: var(--h3-font-size);
+}
+
+.education_studies{
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.education_year{
+  font-size: var(--smaller-font-size);
+}
 /*========== SKILLS AND LANGUAGES ==========*/
 
 
