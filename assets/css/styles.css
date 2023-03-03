@@ -110,7 +110,7 @@ body.scale-cv{
 .scale-cv .section-title{
   margin-bottom: .75rem;
 }
-
+cial_container
 .scale-cv .resume_left,
 .scale-cv .resume_right{
   padding: 0 1rem;
@@ -380,8 +380,10 @@ img{
 
 /*========== SOCIAL ==========*/
 .social_container{
+  display:grid;
   grid-template-columns: max-content;
   gap: 1rem;
+  
 }
 
 .social_link{
