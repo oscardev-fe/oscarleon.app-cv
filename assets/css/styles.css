@@ -336,21 +336,24 @@ img{
   font-size: var(--smaller-font-size);
 }
 /*========== SKILLS AND LANGUAGES ==========*/
-.skills_content{
+.skills_content,
+.languages_content{
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skills_content{
+.languages_content{
   gap: 0;
 }
 
-.skills_name{
+.skills_name,
+.languages_name{
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
 }
 
-.skills_circle{
+.skills_circle,
+.languages_circle{
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -383,7 +386,22 @@ img{
   font-size: var(--h3-font-size);
 }
 /*========== INTERESTS ==========*/
+.interests_container{
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: var(--mb-2);
+}
 
+.interests_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interests_icon{
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+  margin-bottom: .25rem;
+}
 
 /* Scroll top */
 
