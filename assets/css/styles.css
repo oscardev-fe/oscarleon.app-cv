@@ -424,6 +424,10 @@ img{
   color: var(--text-color);
 }
 
+.show-scroll{
+  visibility: visible;
+  bottom: 5rem;
+}
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
 
