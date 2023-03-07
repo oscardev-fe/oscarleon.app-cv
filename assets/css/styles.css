@@ -332,7 +332,7 @@ img{
 
 .home_img{
   width: 120px;
-  height: 120px;
+  height: 130px;
   border-radius: 50%;
   justify-self: center;
   margin-bottom: var(--mb-1);
